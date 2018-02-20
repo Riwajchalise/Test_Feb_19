@@ -13,7 +13,7 @@ class SquareGeometry:
         peremeter = self.length*4
         return peremeter
 
-s1 = SquareGeometry(int(input("enter length of sq.")))
+s1 = SquareGeometry(int(input("enter the length of sq.")))
 
 print(s1.getArea())
 print(s1.getPerimeter())
